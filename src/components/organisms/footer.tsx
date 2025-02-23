@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Instagram } from 'lucide-react';
+import { Instagram, Linkedin } from 'lucide-react';
 
 
 const navigationItems = [
@@ -42,14 +42,11 @@ export function Footer() {
                 Solusi Digital All-in-One: Desain, Development, Maintenance!
             </p>
             <div className="flex space-x-4">
-                <Link href="https://instagram.com/nyambidigital" target="_blank" className="text-gray-700 hover:text-gray-900 text-2xl">
+                <Link href="https://instagram.com/nyambidigital" target="_blank" className="text-white hover:text-orange-500 text-2xl">
                     <Instagram />
                 </Link>
-                <Link href="#" className="text-gray-700 hover:text-gray-900 text-2xl">
-                    <PiLinkSimpleBold />
-                </Link>
-                <Link href="https://linkedin.com/company/nyambidigital" target="_blank" className="text-gray-700 hover:text-gray-900 text-2xl">
-                 <FaLinkedin />
+                <Link href="https://linkedin.com/company/nyambidigital" target="_blank" className="text-white hover:text-orange-500 text-2xl">
+                <Linkedin />
                  </Link>
             </div>
             <div className="flex gap-20">
