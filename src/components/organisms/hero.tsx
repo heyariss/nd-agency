@@ -5,10 +5,10 @@ import Image from 'next/image';
 export function HeroSection() {
   return (
     <section className="mx-auto px-16 py-10 sm:py-16 lg:py-20">
-    <div className="px-2 max-w-7xl sm:px-6 lg:px-8 grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
+    <div className="px-8 max-w-7xl sm:px-2 md:px-4 grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
       <div>
       <div className="flex mb-4 w-fit items-center justify-center border-opacity-50 border rounded-lg py-1 px-2 lg:gap-4 sm:gap-2">
-        <Badge className="text-xs lg:text-md">NEW</Badge>
+        <Badge className=" text-md sm:text-xs">NEW</Badge>
         <span className="text-xs lg:text-base font-semibold text-gray-700">No.1 Digital Agency of 2025</span>
       </div>
         <h1 className="text-4xl font-bold text-neutral-800 sm:text-6xl lg:text-5xl text-left leading-relaxed">
