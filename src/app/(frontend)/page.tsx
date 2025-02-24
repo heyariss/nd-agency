@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <div className="bg-white z-1">
       <Navbar />
+      <main className="flex pt-16 lg:pt-20 flex-col row-start-2 items-center sm:items-start">
       <HeroSection />
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <TechStack />
         <AboutSection />
         <ServicesSection />

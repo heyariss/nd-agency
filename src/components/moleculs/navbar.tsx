@@ -19,7 +19,7 @@ export function Navbar() {
 
   return (
     <nav className="fixed top-0 inset-x-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b">
-      <div className="px-4 mx-auto sm:px-6 lg:px-20 max-w-7xl">
+      <div className="mx-auto px-4 sm:px-6 md:px-8 lg:px-12 max-w-7xl">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
@@ -50,10 +50,10 @@ export function Navbar() {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuTrigger>Insight</NavigationMenuTrigger>
-                  <NavigationMenuContent className="flex flex-col p-4 gap-2 min-w-[200px]">
-                    <NavigationMenuLink href="/ui-ux">UI/UX Design</NavigationMenuLink>
-                    <NavigationMenuLink href="/landing-page">Website Landing Pages</NavigationMenuLink>
-                    <NavigationMenuLink href="/seo">Search Engine Optimization</NavigationMenuLink>
+                  <NavigationMenuContent className="flex flex-col p-4 gap-2 min-w-[200px] md:w-[200px] lg:w-[300px]">
+                    <NavigationMenuLink href="/ui-ux" className="p-2 rounded-md hover:bg-secondary hover:text-neutral-800">UI/UX Design </NavigationMenuLink>
+                    <NavigationMenuLink href="/landing-page" className="p-2 rounded-md hover:bg-secondary hover:text-neutral-800">Website Landing Pages </NavigationMenuLink>
+                    <NavigationMenuLink href="/seo" className="p-2 rounded-md hover:bg-secondary hover:text-neutral-800">Search Engine Optimization</NavigationMenuLink>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
                 <NavigationMenuItem>

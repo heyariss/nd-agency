@@ -14,7 +14,7 @@ export function FaqSection() {
               <Badge variant="outline">FAQ</Badge>
             </div>
             <div className="flex gap-2 flex-col">
-              <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-left font-semibold">
+              <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl text-left font-semibold hover:text-secondary">
                 Almost Ready? Let’s Clear Up Your Questions
               </h4>
               <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-left">
@@ -23,7 +23,7 @@ export function FaqSection() {
               </p>
             </div>
             <div className="">
-              <Button className="gap-4" variant="outline">
+              <Button className="gap-4 hover:bg-primary hover:text-white" variant="outline">
                 Any questions? Reach out <PhoneCall className="w-4 h-4" />
               </Button>
             </div>

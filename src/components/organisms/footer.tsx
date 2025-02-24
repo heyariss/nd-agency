@@ -33,7 +33,7 @@ const navigationItems = [
 export function Footer() {
   return (
     <footer className="w-full py-16 lg:py-20 bg-primary text-background">
-      <div className="container mx-auto px-20">
+      <div className="container max-w-7xl mx-auto sm:px-2 md:px-4 px-8">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           {/* Logo & Info */}
           <div className="flex flex-col gap-8">
@@ -42,7 +42,7 @@ export function Footer() {
                 Solusi Digital All-in-One: Desain, Development, Maintenance!
             </p>
             <div className="flex space-x-4">
-                <Link href="https://instagram.com/nyambidigital" target="_blank" className="text-white hover:text-orange-500 text-2xl">
+                <Link href="https://instagram.com/nyambidigital.id" target="_blank" className="text-white hover:text-orange-500 text-2xl">
                     <Instagram />
                 </Link>
                 <Link href="https://linkedin.com/company/nyambidigital" target="_blank" className="text-white hover:text-orange-500 text-2xl">

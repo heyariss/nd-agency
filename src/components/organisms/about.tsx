@@ -11,7 +11,7 @@ export function AboutSection() {
           <Badge variant="outline">About Us</Badge>
           </div>
           <div className="flex gap-4 flex-col">
-            <h2 className="text-xl md:text-3xl md:text-5xl leading-relaxed tracking-normal lg:max-w-xl font-semibold text-left">
+            <h2 className="text-xl md:text-3xl lg:text-5xl leading-relaxed tracking-normal lg:max-w-xl font-semibold text-left">
               Mengenal Nyambi Digital Agency Lebih Dekat
             </h2>
             <p className="text-lg max-w-xl lg:max-w-xl leading-relaxed tracking-tight text-muted-foreground text-left">
