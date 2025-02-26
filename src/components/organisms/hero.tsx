@@ -17,8 +17,8 @@ export function HeroSection() {
         <p className="mt-8 text-base text-muted-foreground sm:text-xl text-left">
           Jangan biarkan website bermasalah menghambat bisnismu. Kami siap membantu maintenance dan pengembangan website agar selalu optimal.
         </p>
-        <div className="mt-10 flex flex-col gap-2 sm:flex-col sm:gap-4 md:flex-col md:w-full">
-          <Button variant="outline" className="py-2 px-4">Tentang Kami</Button>
+        <div className="mt-10 flex flex-col gap-2 sm:gap-4 lg:flex-row md:flex-row sm:flex-col sm:w-full">
+          <Button variant="outline" className="py-2 px-4">Tentang Kami </Button>
           <Button className="py-2 px-4">Gratis Konsultasi</Button>
         </div>
       </div>

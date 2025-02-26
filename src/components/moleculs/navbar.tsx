@@ -43,7 +43,7 @@ export function Navbar() {
                   <NavigationMenuLink href="/">Home</NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                  <NavigationMenuLink href="/profil">Profil</NavigationMenuLink>
+                  <NavigationMenuLink href="/profile">Profil</NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink href="/layanan">Layanan</NavigationMenuLink>
