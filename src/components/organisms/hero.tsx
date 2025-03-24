@@ -1,8 +1,11 @@
+import Link from "next/link";
 import { Badge } from "../ui/badge";
-import { Button } from "../ui/button";
+import { buttonVariants } from "../ui/button";
 import Image from 'next/image';
 
+
 export function HeroSection() {
+
   return (
     <section className="mx-auto px-16 py-10 sm:py-16 lg:py-20">
     <div className="px-8 max-w-7xl sm:px-2 md:px-4 grid items-center grid-cols-1 gap-12 lg:grid-cols-2">
@@ -18,8 +21,8 @@ export function HeroSection() {
           Jangan biarkan website bermasalah menghambat bisnismu. Kami siap membantu maintenance dan pengembangan website agar selalu optimal.
         </p>
         <div className="mt-10 flex flex-col gap-2 sm:gap-4 lg:flex-row md:flex-row sm:flex-col sm:w-full">
-          <Button variant="outline" className="py-2 px-4">Tentang Kami </Button>
-          <Button className="py-2 px-4">Gratis Konsultasi</Button>
+          <Link className={buttonVariants({ variant: "outline" })} href="/profile">Tentang Kami</Link>
+          <Link className={buttonVariants({ variant: "default" })} href="/kontak">Gratis Konsultasi</Link>
         </div>
       </div>
       <div>

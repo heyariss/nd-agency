@@ -18,7 +18,7 @@ export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 inset-x-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b">
+    <nav className="fixed top-0 inset-x-0 bg-transparant backdrop-blur supports-[backdrop-filter]:bg-background/60 z-50 border-b">
       <div className="mx-auto px-4 sm:px-6 md:px-8 lg:px-12 max-w-7xl">
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}

@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import { LoginForm } from "@/components/moleculs/login-form"
+import Image from "next/image";
+import { LoginForm } from "@/components/moleculs/login-form";
 
 export default function LoginPage() {
   return (
@@ -33,5 +33,5 @@ export default function LoginPage() {
         />
       </div>
     </div>
-  )
+  );
 }
